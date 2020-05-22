@@ -12,10 +12,12 @@ rotated_img=load('Img_folder_address.mat');
 rotated_img=rotated_img.img_path;
 excelFile_address=load('label_file_address.mat');
 excelFile_address=excelFile_address.label_path;
-excelFile=readmatrix(excelFile_address);
+excelFile=readtable(excelFile_address);
+excelFile=table2array(excelFile);
 rowSpace_address=load('rowSpace_file_address.mat');
 rowSpace_address=rowSpace_address.rowSpace_path;
-register=readmatrix(rowSpace_address);
+register=readtable(rowSpace_address,'ReadVariableNames',false);
+register=table2array(register);
 output_path='.\meter\';
 
 i=1;
