@@ -74,7 +74,9 @@ y_test=np.load('y_test.npy').reshape([-1,1])
 
 
 """
+#data =pd.read_csv('C:/Users/aijing/Desktop/Emergence Framework/framework/LabelsForMeter.csv')
 
+#ipdb.set_trace()
 data =pd.read_csv(sys.argv[1])
 
 
@@ -85,7 +87,7 @@ params = {'batch_size': 8,
           'num_workers': 0}
 max_epochs = 20
 
-#root='E:/spyder/meter/'
+#root='C:/Users/aijing/Desktop/Emergence Framework/framework/meter/'
 
 root=sys.argv[2]
 #ipdb.set_trace()

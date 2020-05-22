@@ -26,13 +26,13 @@ import torch.utils.data as Data
 from CNN_4_pretrained_regression2 import initialize_model
 import time
 import sys
-import ipdb
-import psutil
+#import ipdb
+#import psutil
 
 
-psutil.cpu_percent()
-psutil.virtual_memory
-dict(psutil.virtual_memory()._asdict())
+#psutil.cpu_percent()
+#psutil.virtual_memory
+#dict(psutil.virtual_memory()._asdict())
 
 model_name = "resnet18"
 feature_extract = False
