@@ -16,8 +16,6 @@ This framework consists of two major tasks, i.e. model training and emergence ev
 - GetLabelimage.m
    - Read the raw RGB image frames, rotate the raw images, guide the users to select the regions had ground labels, segment each seedlings cluster, record the locations and id of the seedlings cluster, calculated row spacing, generate a file that asked the users to type labels on it.
 - LablesForMeter.m
-  - An easy use graphical user interface (GUI), users can start the framework here.
-- GetLabelimage.m
   - Read the rotated images, row spacing file and visual labelling file, crop the images by meters from the raw image frame, calculate the seedling number and canopy size of each meter length image.
 - row_4 folder
   - Example images collected for the related paper.
