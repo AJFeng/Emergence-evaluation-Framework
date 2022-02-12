@@ -5,7 +5,6 @@ This is the code related to our paper 'Evaluation of cotton emergence using UAV-
 
 Feng, A., Zhou, J., Vories, E., & Sudduth, K. A. (2020). Evaluation of cotton emergence using UAV-based imagery and deep learning. Computers and Electronics in Agriculture, 177, 105711.
 
-https://reader.elsevier.com/reader/sd/pii/S0168169920314216?token=13B0959DC45AEC01BC6B253EC3CA3E95A8334242205DB1B02311C7553F6B1AF1D988189BA2B86BD5F01B445DC892D308&originRegion=us-east-1&originCreation=20220212170158
 
 ## Getting Started
 Please read the 'Introduction of the emergence evaluation framework' for environment setting and usage.
